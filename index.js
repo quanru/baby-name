@@ -50,7 +50,7 @@ for (let m = 0; m < list.length; m++) {
         continue;
       }
 
-      const item = `${lastName}${name} 笔画：${firstName1.stoke} ${firstName2.stoke}；属性：${firstName1.type + firstName2.type}`;
+      const item = `${lastName}${name} 属性：${firstName1.type + firstName2.type}；笔画：${firstName1.stoke} ${firstName2.stoke}`;
       const stoke = `${firstName1.stoke}${firstName2.stoke}`;
 
       if (stoke !== '96' && stoke !== '97' && stoke !== '1312') {
